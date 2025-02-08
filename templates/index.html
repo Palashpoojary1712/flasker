@@ -1,0 +1,14 @@
+<h1>hello world</h1>
+<p>this is my first flask webpage
+</p>
+<p>very cool</p>
+<p> my name is {{first_name }}</p>
+<p>{{ stuff|safe }}</p>
+<p>{{ stuff|striptags }}</p>
+<h3>favorite pizza</h3>
+{% for topping in pizza%}
+      {{topping}} <br/>
+{% endfor %}
+
+<br><br/>
+{{pizza.0}}
