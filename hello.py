@@ -19,7 +19,7 @@ def index():
 #ef user(name):
     return render_template("user.html",user_name=name)
 
-#invalid url  
+#invalid url  thang
  
 @app.errorhandler(404)
 def not_found_error(e):  # Changed function name to avoid conflict
